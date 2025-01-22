@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Colman24Class2</string>
+    <string name="toolbar_title_student_recycler_view">Students List</string>
+    <string name="add_student">Add</string> <!-- Added title -->
+    <string name="toolbar_title_student_details">Student Details</string>
+    <string name="toolbar_title_add_student">Add Student</string>
+    <string name="toolbar_title_edit_student">Edit Student</string>
+
+
+</resources>
+
