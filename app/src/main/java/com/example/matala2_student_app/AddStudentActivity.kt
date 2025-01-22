@@ -35,6 +35,7 @@ class AddStudentActivity : AppCompatActivity() {
 
 
         //-----DEFINE----
+
         val saveButton: Button = findViewById(R.id.add_student_activity_save_button)
         val cancelButton: Button = findViewById(R.id.add_student_activity_cancel_button)
         val nameEditText: EditText = findViewById(R.id.add_student_activity_name_text)
@@ -61,7 +62,7 @@ class AddStudentActivity : AppCompatActivity() {
                 isChecked = checkBox.isChecked,
                 address = addressEditText.text.toString()
             )
-
+//also here
             val resultIntent = Intent().apply {
                 putExtra("STUDENT_NAME", newStudent.name)
                 putExtra("STUDENT_ID", newStudent.id)
